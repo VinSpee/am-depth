@@ -1,0 +1,31 @@
+{
+  "name": "CSS Depths",
+  "description": "Assign depths based on Google's Material Design",
+  "version": "0.1.0",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "lib"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VinSpee/suitcss-depth.git"
+  },
+  "keywords": [
+    "browser",
+    "css-components",
+    "suitcss",
+    "crank",
+    "style"
+  ],
+  "author": "Vince Speelman",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/vinspee/suitcss-depth/master/LICENSE"
+    }
+  ],
+}

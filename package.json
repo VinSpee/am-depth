@@ -1,5 +1,5 @@
 {
-  "name": "CSS Depths",
+  "name": "suitcss-depth",
   "description": "Assign depths based on Google's Material Design",
   "version": "0.1.0",
   "style": "index.css",
@@ -27,5 +27,5 @@
       "type": "MIT",
       "url": "https://raw.github.com/vinspee/suitcss-depth/master/LICENSE"
     }
-  ],
+  ]
 }

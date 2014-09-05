@@ -1,5 +1,5 @@
 {
-  "name": "suitcss-depth",
+  "name": "am-depth",
   "description": "Assign depths based on Google's Material Design",
   "version": "0.1.0",
   "style": "index.css",
@@ -12,12 +12,12 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/VinSpee/suitcss-depth.git"
+    "url": "git://github.com/VinSpee/am-depth.git"
   },
   "keywords": [
     "browser",
     "css-components",
-    "suitcss",
+    "am",
     "crank",
     "style"
   ],
@@ -25,7 +25,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://raw.github.com/vinspee/suitcss-depth/master/LICENSE"
+      "url": "https://raw.github.com/vinspee/am-depth/master/LICENSE"
     }
   ]
 }

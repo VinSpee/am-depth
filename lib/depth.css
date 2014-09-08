@@ -44,7 +44,7 @@
 }
 
 [data-am-depth~="0"]:before,
-[data-am-depth~=0]:after {
+[data-am-depth~=0]:after,
 [am-depth~="0"]:before,
 [am-depth~=0]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);

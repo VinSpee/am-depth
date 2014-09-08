@@ -3,11 +3,15 @@
  * different depths
  */
 
+[data-am-depth],
 [am-depth] {
   position: relative;
 }
 
-[am-depth]:before, [am-depth]:after {
+[data-am-depth]:before,
+[data-am-depth]:after,
+[am-depth]:before,
+[am-depth]:after {
   z-index: -1;
   position: absolute;
   display: block;
@@ -20,78 +24,120 @@
   padding: 0;
 }
 
-[am-depth~="0"]:before, [am-depth~=0]:after {
+[data-am-depth~="0"]:before,
+[data-am-depth~=0]:after,
+[am-depth~="0"]:before,
+[am-depth~=0]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+[data-am-depth~="0"]:before,
 [am-depth~="0"]:before {
   opacity: 0;
   box-shadow: 0px 0px 0px black, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent;
 }
 
+[data-am-depth~="0"]:after,
 [am-depth~="0"]:after {
   opacity: 0;
   box-shadow: 0px 0px 0px black, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent;
 }
-[am-depth~="0"]:before, [am-depth~=0]:after {
+
+[data-am-depth~="0"]:before,
+[data-am-depth~=0]:after {
+[am-depth~="0"]:before,
+[am-depth~=0]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-[am-depth~="1"]:before, [am-depth~=1]:after {
+[data-am-depth~="1"]:before,
+[data-am-depth~=1]:after,
+[am-depth~="1"]:before,
+[am-depth~=1]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+[data-am-depth~="1"]:before,
 [am-depth~="1"]:before {
   opacity: 0.12;
   box-shadow: 0px 1px 10px black, 0px 3px 15px transparent, 0px 10px 40px transparent, 0px 14px 50px transparent, 0px 19px 70px transparent;
 }
+
+[data-am-depth~="1"]:after,
 [am-depth~="1"]:after {
   opacity: 0.24;
   box-shadow: 0px 1px 1px black, 0px 3px 3px transparent, 0px 6px 3px transparent, 0px 10px 5px transparent, 0px 15px 6px transparent;
 }
 
-[am-depth~="2"]:before, [am-depth~="2"]:after {
+[data-am-depth~="2"]:before,
+[data-am-depth~="2"]:after,
+[am-depth~="2"]:before,
+[am-depth~="2"]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+[data-am-depth~="2"]:before,
 [am-depth~="2"]:before {
   opacity: 0.16;
   box-shadow: 0px 1px 10px transparent, 0px 3px 15px black, 0px 10px 40px transparent, 0px 14px 50px transparent, 0px 19px 70px transparent;
 }
+
+[data-am-depth~="2"]:after,
 [am-depth~="2"]:after {
   opacity: 0.23;
   box-shadow: 0px 1px 1px transparent, 0px 3px 3px black, 0px 6px 3px transparent, 0px 10px 5px transparent, 0px 15px 6px transparent;
 }
 
-[am-depth~="3"]:before, [am-depth~="3"]:after {
+[data-am-depth~="3"]:before,
+[am-depth~="3"]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+[data-am-depth~="3"]:before,
 [am-depth~="3"]:before {
   opacity: 0.19;
   box-shadow: 0px 1px 10px transparent, 0px 3px 15px transparent, 0px 10px 40px black, 0px 14px 50px transparent, 0px 19px 70px transparent;
 }
+
+[data-am-depth~="3"]:after,
 [am-depth~="3"]:after {
   opacity: 0.23;
   box-shadow: 0px 1px 1px transparent, 0px 3px 3px transparent, 0px 6px 3px black, 0px 10px 5px transparent, 0px 15px 6px transparent;
 }
 
-[am-depth~="4"]:before, [am-depth~="4"]:after {
+[data-am-depth~="4"]:before,
+[data-am-depth~="4"]:after,
+[am-depth~="4"]:before,
+[am-depth~="4"]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+[data-am-depth~="4"]:before,
 [am-depth~="4"]:before {
   opacity: 0.25;
   box-shadow: 0px 1px 10px transparent, 0px 3px 15px transparent, 0px 10px 40px transparent, 0px 14px 50px black, 0px 19px 70px transparent;
 }
+
+[data-am-depth~="4"]:after,
 [am-depth~="4"]:after {
   opacity: 0.22;
   box-shadow: 0px 1px 1px transparent, 0px 3px 3px transparent, 0px 6px 3px transparent, 0px 10px 5px black, 0px 15px 6px transparent;
 }
 
-[am-depth~="5"]:before, [am-depth~="5"]:after {
+[data-am-depth~="5"]:before,
+[data-am-depth~="5"]:after,
+[am-depth~="5"]:before,
+[am-depth~="5"]:after {
   transition: box-shadow 0.7s 0.01s cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+[data-am-depth~="5"]:before,
 [am-depth~="5"]:before {
   opacity: 0.30;
   box-shadow: 0px 1px 10px transparent, 0px 3px 15px transparent, 0px 10px 40px transparent, 0px 14px 50px transparent, 0px 19px 70px black;
 }
+
+[data-am-depth~="5"]:after,
 [am-depth~="5"]:after {
   opacity: 0.22;
   box-shadow: 0px 1px 1px transparent, 0px 3px 3px transparent, 0px 6px 3px transparent, 0px 10px 5px transparent, 0px 15px 6px black;

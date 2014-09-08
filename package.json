@@ -1,7 +1,7 @@
 {
   "name": "am-depth",
   "description": "Assign depths based on Google's Material Design",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "style": "index.css",
   "files": [
     "index.css",

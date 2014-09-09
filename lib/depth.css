@@ -3,17 +3,22 @@
  * different depths
  */
 
+*,
+*:before,
+*:after {
+  z-index: 1;
+}
+
 [data-am-depth],
 [am-depth] {
   position: relative;
-  pointer-events: none;
 }
 
 [data-am-depth]:before,
 [data-am-depth]:after,
 [am-depth]:before,
 [am-depth]:after {
-  z-index: 0;
+  z-index: -1;
   position: absolute;
   display: block;
   content: '';
@@ -23,7 +28,6 @@
   left: 0px;
   margin: 0;
   padding: 0;
-  pointer-events: none;
 }
 
 [data-am-depth~="0"]:before,

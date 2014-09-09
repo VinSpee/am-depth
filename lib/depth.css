@@ -6,6 +6,7 @@
 [data-am-depth],
 [am-depth] {
   position: relative;
+  pointer-events: none;
 }
 
 [data-am-depth]:before,
@@ -22,6 +23,7 @@
   left: 0px;
   margin: 0;
   padding: 0;
+  pointer-events: none;
 }
 
 [data-am-depth~="0"]:before,

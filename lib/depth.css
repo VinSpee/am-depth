@@ -5,12 +5,14 @@
 
 [data-am-depth] {
   position: relative;
+  z-index: 1; /* to make sure the shadow shows */
 }
 
 [data-am-depth]:before,
 [data-am-depth]:after {
   content: "";
   position: absolute;
+  z-index: -1; /* to make sure the shadow layer isn't on top of the content inside of it */
   top: 0;
   left: 0;
   right: 0;
